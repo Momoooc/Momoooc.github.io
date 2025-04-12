@@ -113,9 +113,14 @@ Cloudflare Pages 是另一个流行的静态网站托管服务，提供快速的
 
    ```javascript
    const websites = [
-       { name: "百度", url: "http://www.baidu.com/", desc: "百度，全球最大的中文搜索引擎，提供全面的搜索服务。", color: "bg-gray" },
-       // ... 其他网站
-   ];
+     {
+       name: '百度',
+       url: 'http://www.baidu.com/',
+       desc: '百度，全球最大的中文搜索引擎，提供全面的搜索服务。',
+       color: 'bg-gray'
+     }
+     // ... 其他网站
+   ]
    ```
 
    `websites` 数组包含了所有网站的信息。您可以按照以下格式添加新的网站：

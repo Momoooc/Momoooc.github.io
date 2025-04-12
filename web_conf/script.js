@@ -1,6 +1,5 @@
 // 网站数据
 const websites = [
-  // ================== 搜索类 ==================
   {
     name: '百度',
     url: 'http://www.baidu.com/',
