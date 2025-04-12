@@ -4,31 +4,31 @@ const websites = [
   {
     name: '百度',
     url: 'http://www.baidu.com/',
-    desc: '百度，全球最大的中文搜索引擎，提供全面的搜索服务。',
+    desc: '百度，中文搜索引擎，提供网页、图片、视频、新闻等搜索服务，是常用的信息检索入口。',
     color: 'bg-gray'
   },
   {
     name: 'Google',
     url: 'https://Google.com',
-    desc: '谷歌，搜索引擎，全球使用最广泛的搜索引擎，提供强大的信息检索能力。',
+    desc: 'Google 谷歌，全球领先的搜索引擎，提供网页搜索、图片搜索、地图、Gmail等服务，是获取信息的强大工具。',
     color: 'bg-gray'
   },
   {
     name: 'GitHub',
     url: 'https://github.com/',
-    desc: 'GitHub，全球最大的代码托管平台，开发者协作和版本控制的首选。',
+    desc: 'GitHub，全球最大的代码托管平台，面向开发者，提供代码托管、协作、版本控制（Git）等功能，是开源项目和团队协作的首选。',
     color: 'bg-green'
   },
   {
     name: 'CPU 天梯图',
     url: 'https://tools.miku.ac/cpu_rank/',
-    desc: 'CPU Rank 是一个在线工具，用于评估和比较不同 CPU 的性能，帮助用户选择合适的处理器。',
+    desc: 'CPU天梯图，用于评估和比较不同 CPU 性能的在线工具，帮助您选择合适的处理器型号。',
     color: 'bg-yellow'
   },
   {
     name: 'GPU 天梯图',
     url: 'https://tools.miku.ac/gpu_rank/',
-    desc: 'GPU Rank 是一个在线工具，用于评估和比较不同 GPU 的性能，帮助用户选择合适的显卡。',
+    desc: 'GPU天梯图，用于评估和比较不同 GPU 性能的在线工具，帮助您选择合适的显卡型号。',
     color: 'bg-green'
   },
   {
