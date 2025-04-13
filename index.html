@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Momoooc 导航</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星标 - 站点灯塔</title>
+    <meta name="description" content="星标，一个简洁易用的书签管理工具，珍藏你的网络星标，随时重温精彩内容。">
+    <meta name="keywords" content="书签, 收藏, 网址, 导航, 管理, 快速访问, 星标">
+    <meta name="author" content="Momoooc">
+    <link rel="icon" href="web_conf/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="web_conf/style.css" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="星标 - 珍藏你的网络星标">
+    <meta property="og:description" content="星标，一个简洁易用的书签管理工具，珍藏你的网络星标，随时重温精彩内容。">
+    <meta property="og:url" content="https://www.125925.xyz/">
+    <meta property="og:image" content="https://www.125925.xyz/web_conf/favicon.ico">
   </head>
   <body>
-    <div class="app-container">
-      <div class="header">
-        <h1 class="title">Momoooc 导航</h1>
-        <p class="subtitle">老墨的常用网站资源整合平台</p>
+    <div class="frosted-glass" id="gesture-indicator"></div>
+    <div id="content">
+      <div class="search_part">
+        <a class="logo">
+          <img class="smaller" src="web_conf/logo.png" />
+        </a>
+        <form onsubmit="return baiduSearch()" class="search_bar" title="搜索">
+          <button
+            type="button"
+            onclick="baiduSearch()"
+            id="search_submit"
+            value=""
+            aria-label="搜索"
+          >
+            <div class="search icon"></div>
+          </button>
+          <span>
+            <input
+              class="search"
+              onfocus="showButton()"
+              onblur="hideButton()"
+              type="text"
+              value=""
+              autocomplete="off"
+              id="search_input"
+              title="搜索"
+            />
+          </span>
+        </form>
       </div>
+      <div id="bookmark_part">
+        <div id="box_container"></div>
+      </div>
+      <script src="web_conf/date.js"></script>
+      <script src="web_conf/script.js"></script>
 
-      <div class="search-container">
-        <div class="search-wrapper">
-          <input
-            type="text"
-            class="search-input"
-            id="searchInput"
-            placeholder="搜索网站名称或描述..."
-          />
-          <div class="search-icon">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </div>
-        </div>
-      </div>
-
-      <div class="content-container">
-        <div class="website-scroller" id="websiteScroller">
-          <div class="grid-container" id="websiteContainer"></div>
-          <div class="empty-state" id="emptyState">
-            <div class="empty-icon">🔍</div>
-            <div class="empty-text">未找到匹配的网站</div>
-          </div>
-        </div>
-      </div>
     </div>
-    <script src="web_conf/script.js"></script>
   </body>
 </html>

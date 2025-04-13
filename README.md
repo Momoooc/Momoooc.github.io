@@ -1,168 +1,111 @@
-# Momoooc 导航
+# 星标 - 你的站点灯塔
 
-## 项目简介
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/Momoooc/Momoooc.github.io?style=social)](https://github.com/Momoooc/Momoooc.github.io)
+[![GitHub Forks](https://img.shields.io/github/forks/Momoooc/Momoooc.github.io?style=social)](https://github.com/Momoooc/Momoooc.github.io)
 
-**Momoooc 导航** 是一个旨在提供便捷、高效的常用网站资源整合平台。它通过简洁美观的界面和强大的搜索功能，帮助用户快速找到所需的网站资源，提升日常使用效率。该项目采用响应式设计，确保在各种设备上都能提供良好的用户体验。
 
-## 功能特点
+## 项目介绍
 
-- **搜索功能**：
-  - 用户可以输入网站的名称或描述关键词，系统将实时过滤并显示匹配的网站列表。
-  - 搜索功能支持模糊匹配，即使输入部分关键词也能找到相关网站。
-- **响应式设计**：
-  - 网站采用响应式布局，能够自动适应不同屏幕尺寸的设备，包括手机、平板电脑和桌面电脑。
-  - 在不同设备上，网站的布局和元素大小会进行相应调整，以保证最佳的浏览体验。
-- **动态加载**：
-  - 网站列表根据用户的搜索条件动态更新，无需刷新页面即可查看搜索结果。
-  - 动态加载技术提高了搜索效率，减少了不必要的资源加载。
-- **网站图标**：
-  - 每个网站都配有独特的图标和名称，方便用户快速识别和选择。
-  - 图标采用矢量图形，保证在不同分辨率下都能清晰显示。
-- **可定制性**：
-  - 用户可以通过修改 `web_conf/script.js` 文件，轻松添加、删除或修改网站信息，定制个性化的导航页面。
-  - 支持自定义网站图标的背景颜色，让导航页面更具个性化。
+星标，是一款极简、优雅的个人书签管理器，旨在帮助你高效地收集、整理和访问散落在网络中的优质资源。它像一座灯塔，照亮你数字世界的航程，让知识触手可及。
 
-## 使用说明
+**主要特性：**
 
-1. **克隆项目到本地**
+*   **极简设计**：告别臃肿，回归纯粹。我们追求极致的简洁，让你专注于内容本身。
+*   **高效管理**：轻松添加、编辑和删除书签，打造专属的知识库。
+*   **快速访问**：一键直达目标网站，节省宝贵时间。
+*   **GitHub Pages 部署**：无需服务器，即可免费部署到 GitHub Pages，随时随地访问你的书签。
 
-   首先，您需要将项目克隆到本地计算机。请确保您已安装 Git，然后在终端或命令提示符中执行以下命令：
 
-   ```bash
-   git clone https://github.com/yourusername/momoooc-navigation.git
-   ```
+## 部署教程 (GitHub Pages)
 
-   请将 `https://github.com/yourusername/momoooc-navigation.git` 替换为您的仓库地址。
+想让你的星标书签在网上也能访问吗？使用 GitHub Pages 可以免费部署！
 
-2. **打开 HTML 文件**
+1.  **创建 GitHub 仓库**：
+    *   在 GitHub 上创建一个新的仓库，仓库名随意，例如 `my-bookmarks`。
+2.  **上传项目代码**：
+    *   将本项目的所有文件（包括 `index.html`、`.prettierrc` 和 `web_conf` 文件夹）上传到你刚创建的 GitHub 仓库中。
+3.  **启用 GitHub Pages**：
+    *   进入你的 GitHub 仓库，点击 "Settings"（设置）选项卡。
+    *   在左侧菜单中找到 "Pages"（页面）选项。
+    *   在 "Source"（来源）部分，选择你的主分支（通常是 `main` 或 `master`），然后点击 "Save"（保存）。
+4.  **等待部署**：
+    *   GitHub Pages 会自动部署你的网站，这可能需要几分钟时间。
+5.  **访问你的网站**：
+    *   部署完成后，你可以在 "GitHub Pages" 设置页面找到你的网站地址，通常是 `https://你的用户名.github.io/你的仓库名`。
 
-   克隆完成后，进入项目目录，在浏览器中打开 `index.html` 文件即可开始使用 Momoooc 导航。
+## 目录结构
 
-   您可以使用以下方法打开 `index.html` 文件：
+```
+.
+├── .prettierrc          # Prettier 配置文件，用于代码格式化
+├── index.html           # 网站入口文件
+└── web_conf/            # 网站配置文件目录
+    ├── date.js          # 书签数据
+    ├── favicon.ico      # 网站图标
+    ├── logo.png         # 网站 Logo
+    ├── script.js        # 网站主要逻辑
+    └── style.css        # 网站样式
+```
 
-   - **直接双击**：在文件管理器中找到 `index.html` 文件，双击即可在默认浏览器中打开。
-   - **使用浏览器打开**：打开浏览器，按下 `Ctrl + O`（或 `Cmd + O`），选择 `index.html` 文件即可。
+## 如何添加书签
 
-## 部署指南
+1.  **编辑 `web_conf/date.js` 文件**：
+    *   打开 `web_conf/date.js` 文件，你会看到一些示例书签。
+    *   按照示例格式，添加你自己的书签信息。每个书签都包含网站的名称和 URL。
+    *   保存文件后，刷新你的网站，就能看到你新添加的书签啦！
 
-### 部署到 GitHub Pages
+**例如：**
 
-GitHub Pages 提供免费的静态网站托管服务。按照以下步骤，您可以将 Momoooc 导航快速部署到 GitHub Pages：
+```javascript
+{
+  urlText: '百度',
+  linkUrl: 'http://www.baidu.com/',
+  linkTitle:'百度，中文搜索引擎，提供网页、图片、视频、新闻等搜服务，是常用的信息检索入口。',
+}
+```
 
-1. **登录 GitHub**
 
-   确保您已登录到您的 GitHub 帐户。
+## 贡献
 
-2. **创建新的代码仓库**
+我们非常欢迎你为星标贡献代码！无论是修复 Bug、添加新功能，还是改进文档，你的贡献都将使星标变得更好。
 
-   - 在 GitHub 网站上，点击右上角的 "+" 图标，选择 "New repository"。
-   - 在 "Repository name" 字段中输入仓库名称（例如：`momoooc-navigation`）。
-   - 确保选择 "Public" 选项，然后点击 "Create repository" 按钮。
+**贡献步骤：**
 
-3. **上传项目文件**
+1.  **Fork 仓库**：点击 GitHub 页面上的 "Fork" 按钮，将仓库复制到你的 GitHub 账号下。
+2.  **Clone 仓库**：将 Fork 后的仓库克隆到本地：
 
-   - 进入刚创建的仓库，点击 “Add file” 按钮，选择 "Upload files"。
-   - 将 `momoooc-navigation` 文件夹中的所有文件（包括 `index.html`、`web_conf` 文件夹和 `LICENSE` 文件）上传到 GitHub 仓库。
+    ```bash
+    git clone https://github.com/你的用户名/你的仓库名.git
+    ```
+3.  **创建分支**：创建一个新的分支，用于开发你的功能或修复 Bug：
 
-4. **启用 GitHub Pages**
+    ```bash
+    git checkout -b feature/你的分支名称
+    ```
+4.  **提交更改**：在本地进行更改，并提交到你的分支：
 
-   - 在仓库页面，点击 "Settings" 选项卡。
-   - 在左侧导航菜单中，选择 "Pages"。
-   - 在 "Source" 部分，选择 `main` 分支（或您上传文件的分支），然后点击 "Save" 按钮。
-   - GitHub 将会自动为您生成一个链接，通常格式为 `https://yourusername.github.io/momoooc-navigation/`。请注意，首次部署可能需要几分钟才能生效。
+    ```bash
+    git add .
+    git commit -m "feat: 你的提交信息"
+    ```
+5.  **推送分支**：将你的分支推送到 GitHub：
 
-### 部署到 Cloudflare Pages
+    ```bash
+    git push origin feature/你的分支名称
+    ```
+6.  **创建 Pull Request**：在 GitHub 页面上，点击 "Compare & pull request" 按钮，创建一个 Pull Request，将你的更改合并到主仓库。
 
-Cloudflare Pages 是另一个流行的静态网站托管服务，提供快速的 CDN 加速和免费的 SSL 证书。以下是部署步骤：
+**贡献规范：**
 
-1. **注册并登录 Cloudflare**
+*   请遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-cn/v1.0.0/) 规范编写提交信息。
+*   请保持代码风格一致，可以使用 Prettier 进行代码格式化。
+*   如果添加了新功能，请编写相应的测试用例。
 
-   如果您还没有 Cloudflare 帐户，请先注册一个。然后登录到 Cloudflare 控制面板。
 
-2. **创建新的 Cloudflare Pages 项目**
+## 感谢
 
-   - 在 Cloudflare 控制面板中，选择 "Pages"，然后点击 "Create a project" 按钮。
-   - 选择 "Connect to Git" 并授权 Cloudflare 访问您的 GitHub 帐户。
-
-3. **选择代码仓库**
-
-   - 在代码仓库列表中，选择您刚刚创建的 `momoooc-navigation` 仓库，然后点击 "Begin setup" 按钮。
-
-4. **配置构建选项**
-
-   - 在 "Framework preset" 中选择 "None"。
-   - "Build command" 字段留空。
-   - 在 "Build output directory" 字段中输入 `.`（表示根目录）。
-   - 点击 "Save and deploy" 按钮。
-
-5. **访问您的网站**
-
-   - Cloudflare Pages 将会自动构建和部署您的网站。部署完成后，您将获得一个 Cloudflare Pages 的链接，通过该链接即可访问您的 Momoooc 导航。
-
-## 添加自定义网站
-
-您可以根据个人需求，自定义 Momoooc 导航中的网站列表。以下是详细步骤：
-
-1. **打开 `web_conf/script.js` 文件**
-
-   使用文本编辑器（如 VS Code、Sublime Text 等）打开项目目录下的 `web_conf/script.js` 文件。
-
-2. **编辑 `websites` 数组**
-
-   在 `script.js` 文件中，找到以下代码片段：
-
-   ```javascript
-   const websites = [
-     {
-       name: '百度',
-       url: 'http://www.baidu.com/',
-       desc: '百度，全球最大的中文搜索引擎，提供全面的搜索服务。',
-       color: 'bg-gray',
-     },
-     // ... 其他网站
-   ];
-   ```
-
-   `websites` 数组包含了所有网站的信息。您可以按照以下格式添加新的网站：
-
-   ```javascript
-   { name: "网站名称", url: "网站链接", desc: "网站描述", color: "背景颜色类名" }
-   ```
-
-   - `name`：网站的名称，将显示在导航页面上。
-   - `url`：网站的链接地址。
-   - `desc`：网站的描述，用于搜索功能。
-   - `color`：网站图标的背景颜色类名。您可以选择以下颜色类名：
-     - `bg-blue`
-     - `bg-indigo`
-     - `bg-purple`
-     - `bg-pink`
-     - `bg-red`
-     - `bg-orange`
-     - `bg-yellow`
-     - `bg-green`
-     - `bg-teal`
-     - `bg-cyan`
-     - `bg-gray`
-     - `bg-dark-blue`
-
-   例如，要添加一个名为 "示例网站"，链接为 "https://example.com"，描述为 "这是一个示例网站"，背景颜色为 "bg-blue" 的网站，您可以这样添加：
-
-   ```javascript
-   { name: "示例网站", url: "https://example.com", desc: "这是一个示例网站。", color: "bg-blue" }
-   ```
-
-3. **保存文件**
-
-   完成编辑后，保存 `web_conf/script.js` 文件。
-
-4. **刷新导航页面**
-
-   刷新您的 Momoooc 导航页面，即可看到新添加的网站。
-
-## 许可证
-
-本项目遵循 [LICENSE](LICENSE) 协议。请查看该文件以获取详细信息。
+本页面设计灵感来源于 Via 浏览器主页，如果涉及侵权，请联系我删除。
 
 ## 联系方式
 
@@ -171,3 +114,7 @@ Cloudflare Pages 是另一个流行的静态网站托管服务，提供快速的
 - GitHub: [Momoooc](https://github.com/Momoooc)
 
 感谢您的使用与支持！
+
+## 许可证
+
+本项目遵循 [LICENSE](LICENSE) 协议。请查看该文件以获取详细信息。
