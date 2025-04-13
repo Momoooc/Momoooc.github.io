@@ -174,7 +174,7 @@ const bookmarkData = [
     linkTitle: '人民法院在线服务-电子送达平台官方网站。',
   },
   {
-    urlText: 'NAS',
+    urlText: '飞牛NAS',
     linkUrl: 'http://192.168.2.201/',
     linkTitle: '服务器，私有网络环境下的服务器地址，用于本地服务访问。',
   },
@@ -182,12 +182,6 @@ const bookmarkData = [
     urlText: '文件管理器',
     linkUrl: 'http://192.168.2.201:6081/',
     linkTitle: '部署在个人服务器上的简易 Web 文件管理器界面（本地实例）。',
-  },
-  {
-    urlText: 'qBittorrent',
-    linkUrl: 'http://192.168.2.201:8081/',
-    linkTitle:
-      'qBittorrent 的 Web UI 界面，用于远程管理 BT 下载任务（本地实例）。',
   },
   {
     urlText: 'v2rayA',
@@ -315,7 +309,7 @@ const bookmarkData = [
   },
   {
     urlText: 'qBittorrent',
-    linkUrl: 'http://192.168.2.200:8081/',
+    linkUrl: 'http://192.168.2.201:8081/',
     linkTitle:
       'qBittorrent 的 Web UI 界面，用于远程管理 BT 下载任务（本地实例）。',
   },
