@@ -179,14 +179,25 @@ const bookmarkData = [
     linkTitle: '服务器，私有网络环境下的服务器地址，用于本地服务访问。',
   },
   {
-    urlText: '文件管理器',
-    linkUrl: 'http://192.168.2.201:6081/',
+    urlText: 'Alist',
+    linkUrl: 'http://192.168.2.201:5244/',
     linkTitle: '部署在个人服务器上的简易 Web 文件管理器界面（本地实例）。',
   },
   {
+    urlText: '小雅Alist',
+    linkUrl: 'http://192.168.2.201:15678/',
+    linkTitle: '部署在个人服务器上的小雅Alist（本地实例）。',
+  },
+  {
     urlText: 'v2rayA',
-    linkUrl: 'http://192.168.2.201:20171/',
+    linkUrl: 'http://192.168.2.201:2017/',
     linkTitle: 'V2Ray/Xray 代理客户端的图形化管理界面（本地实例）。',
+  },
+  {
+    urlText: 'LobeHub',
+    linkUrl: 'http://192.168.2.201:13210/',
+    linkTitle:
+      'LobeHub，一个现代化设计的ChatGPT LLM UI框架,支持语音合成、文本生成图片、多模态和可扩展的插件系统（本地实例）。',
   },
   {
     urlText: 'Grub-主题',
