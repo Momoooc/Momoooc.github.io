@@ -648,4 +648,10 @@ const bookmarkData = [
     linkTitle:
       'CloudFlare优质IP自动切换，全球主机监控 - 国内外VPS、云服务器的库存监控和优惠信息',
   },
+  {
+    urlText: '关于我们',
+    linkUrl: 'https://github.com/Momoooc/Momoooc.github.io',
+    linkTitle:
+      '星标-你的站点灯塔，极简、优雅的个人书签管理器，作者',
+  },
 ];
