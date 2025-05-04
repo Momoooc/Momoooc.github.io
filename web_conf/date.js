@@ -341,7 +341,7 @@ const bookmarkData = [
       '提供各类软件和应用下载的平台，支持 Windows、Android、iOS 等多平台。',
   },
   {
-    urlText: 'wifi',
+    urlText: 'WIFI',
     linkUrl:
       'https://lyingflat.info/2024/09/22/%e7%a0%b4%e8%a7%a3-%e3%80%8c%e9%9a%94%e5%a3%81%e8%80%81%e7%8e%8b%e3%80%8d%e7%9a%84wi-fi-%e5%af%86%e7%a2%bc/',
     linkTitle: '一篇关于kali破解 Wi-Fi 密码的技术讨论或教程文章。',
@@ -653,5 +653,17 @@ const bookmarkData = [
     linkUrl: 'https://github.com/Momoooc/Momoooc.github.io',
     linkTitle:
       '星标-你的站点灯塔，极简、优雅的个人书签管理器，作者',
+  },
+  {
+    urlText: 'ClawCloud',
+    linkUrl: 'https://ap-northeast-1.run.claw.cloud/',
+    linkTitle:
+      'ClawCloud 是一家提供高性能、低成本云服务的平台，支持容器托管与开发环境',
+  },
+  {
+    urlText: '测网速',
+    linkUrl: 'https://test.nju.edu.cn/',
+    linkTitle:
+      '南京大学测速站（Nanjing University Speed Test），用于网络速度测试。',
   },
 ];
