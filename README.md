@@ -41,7 +41,7 @@
 ├── .prettierrc          # Prettier 配置文件，用于代码格式化
 ├── index.html           # 网站入口文件
 └── web_conf/            # 网站配置文件目录
-    ├── date.js          # 书签数据
+    ├── data.js          # 书签数据
     ├── favicon.ico      # 网站图标
     ├── logo.png         # 网站 Logo
     ├── script.js        # 网站主要逻辑
@@ -50,8 +50,8 @@
 
 ## 如何添加书签
 
-1.  **编辑 `web_conf/date.js` 文件**：
-    *   打开 `web_conf/date.js` 文件，你会看到一些示例书签。
+1.  **编辑 `web_conf/data.js` 文件**：
+    *   打开 `web_conf/data.js` 文件，你会看到一些示例书签。
     *   按照示例格式，添加你自己的书签信息。每个书签都包含网站的名称和 URL。
     *   保存文件后，刷新你的网站，就能看到你新添加的书签啦！
 
