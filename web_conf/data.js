@@ -666,4 +666,22 @@ const bookmarkData = [
     linkTitle:
       '南京大学测速站（Nanjing University Speed Test），用于网络速度测试。',
   },
+  {
+    urlText: '搞快点',
+    linkUrl: 'https://github.com/gkd-kit/gkd',
+    linkTitle:
+      '基于 高级选择器 + 订阅规则 + 快照审查 的自定义屏幕点击 Android 应用。',
+  },
+  {
+    urlText: '洛雪音源',
+    linkUrl: 'https://github.com/pdone/lx-music-source',
+    linkTitle:
+      '洛雪音乐源，内容源于网络。',
+  },
+  {
+    urlText: 'lx播放器',
+    linkUrl: 'https://github.com/lyswhut/lx-music-desktop',
+    linkTitle:
+      'LX Music 桌面版，一个基于 Electron & Vue 开发的音乐软件。',
+  },
 ];
