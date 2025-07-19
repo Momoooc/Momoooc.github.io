@@ -686,4 +686,10 @@ const bookmarkData = [
     linkTitle:
       '基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘），具有上传、管理、读取、删除等全链路功能。',
   },
+  {
+    urlText: 'HostingEM',
+    linkUrl: 'http://hostingem.ru/',
+    linkTitle:
+      'HostingEM，免费VPS服务商，还提供免费PHP和MySQL、免费域名托管。',
+  },
 ];
