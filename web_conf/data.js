@@ -692,4 +692,10 @@ const bookmarkData = [
     linkTitle:
       'HostingEM，免费VPS服务商，还提供免费PHP和MySQL、免费域名托管。',
   },
+  {
+    urlText: '打字训练',
+    linkUrl: 'https://qwerty.kaiyi.cool/',
+    linkTitle:
+      '打字训练，通过词典切换，达到边记单词边联系指法的目的。',
+  },
 ];
