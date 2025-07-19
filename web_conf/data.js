@@ -33,7 +33,7 @@ const bookmarkData = [
     urlText: 'Cloudflare',
     linkUrl: 'https://dash.cloudflare.com/login',
     linkTitle:
-      'Cloudflare 提供网站加速、安全和优化服务，用户可以通过此链接登录管理其域名和服务。cf赛博大善人',
+      'Cloudflare 提供网站加速、安全和优化服务，用户可以通过此链接登录管理其域名和服务。CF赛博大善人',
   },
   {
     urlText: '123网盘',
@@ -57,7 +57,7 @@ const bookmarkData = [
   },
   {
     urlText: 'iCloud',
-    linkUrl: 'https://www.icloud.com.cn/#',
+    linkUrl: 'https://www.icloud.com.cn/',
     linkTitle: 'Apple iCloud，苹果公司的云服务，用于存储照片、文件、备份等。',
   },
   {
@@ -87,7 +87,7 @@ const bookmarkData = [
     linkTitle: '五感法写作文教学视频，B站上的一个视频，讲解如何运用五感写作。',
   },
   {
-    urlText: '52破解',
+    urlText: '吾爱破解',
     linkUrl: 'http://www.52pojie.cn/',
     linkTitle: '吾爱破解论坛，专注于软件安全与逆向工程的交流平台。',
   },
@@ -182,22 +182,6 @@ const bookmarkData = [
     urlText: 'Alist',
     linkUrl: 'http://192.168.2.201:5244/',
     linkTitle: '部署在个人服务器上的简易 Web 文件管理器界面（本地实例）。',
-  },
-  {
-    urlText: '小雅Alist',
-    linkUrl: 'http://192.168.2.201:15678/',
-    linkTitle: '部署在个人服务器上的小雅Alist（本地实例）。',
-  },
-  {
-    urlText: 'v2rayA',
-    linkUrl: 'http://192.168.2.201:2017/',
-    linkTitle: 'V2Ray/Xray 代理客户端的图形化管理界面（本地实例）。',
-  },
-  {
-    urlText: 'LobeHub',
-    linkUrl: 'http://192.168.2.201:13210/',
-    linkTitle:
-      'LobeHub，一个现代化设计的ChatGPT LLM UI框架,支持语音合成、文本生成图片、多模态和可扩展的插件系统（本地实例）。',
   },
   {
     urlText: 'Grub-主题',
@@ -371,13 +355,7 @@ const bookmarkData = [
     linkUrl: 'https://imgse.com/',
     linkTitle: '提供免费图片上传和托管服务的网站（图床）。',
   },
-  {
-    urlText: '智能家居',
-    linkUrl: 'http://192.168.2.201:8123/',
-    linkTitle:
-      'Home Assistant 的 Web 界面，用于管理和控制智能家居设备（本地实例）。',
-  },
-  {
+ {
     urlText: 'AI前端',
     linkUrl: 'https://huggingface.co/spaces/enzostvs/deepsite',
     linkTitle:
@@ -683,5 +661,29 @@ const bookmarkData = [
     linkUrl: 'https://github.com/lyswhut/lx-music-desktop',
     linkTitle:
       'LX Music 桌面版，一个基于 Electron & Vue 开发的音乐软件。',
+  },
+  {
+    urlText: 'Gemini代理',
+    linkUrl: 'https://ai.125925.xyz/',
+    linkTitle:
+      'Gemini Balance 是一个基于 Python FastAPI 构建的应用程序，旨在提供 Google Gemini API 的代理和负载均衡功能。',
+  },
+  {
+    urlText: 'Microsoft Store',
+    linkUrl: 'https://apps.microsoft.com/home?hl=zh-CN&gl=CN',
+    linkTitle:
+      '微软官方商店',
+  },
+  {
+    urlText: 'MS商店下载',
+    linkUrl: 'https://store.rg-adguard.net/',
+    linkTitle:
+      '主要用于提供Microsoft应用商店的离线下载服务。用户可通过该网站下载.appxbundle文件（Microsoft 应用安装包），绕过本地应用商店的访问限制或网络问题，实现离线安装应用。',
+  },
+  {
+    urlText: '私人图床',
+    linkUrl: 'https://tc.125925.xyz/',
+    linkTitle:
+      '基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘），具有上传、管理、读取、删除等全链路功能。',
   },
 ];
