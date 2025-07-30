@@ -704,4 +704,28 @@ const bookmarkData = [
     linkTitle:
       '免费电影，可以随时随地畅享海量免费影视内容',
   },
+  {
+    urlText: 'Cron工具',
+    linkUrl: 'https://cron.ciding.cc/',
+    linkTitle: 
+      'Cron在线表达式生成器',
+  },
+  {
+    urlText: '小熊工具',
+    linkUrl: 'https://xx.ciding.cc/',
+    linkTitle: 
+      '小熊在线工具（JSON工具、格式化转换、加解密编码、文本数字、网络等等）',
+  },
+  {
+    urlText: '蚂蚁压图',
+    linkUrl: 'https://ant.ciding.cc/',
+    linkTitle: 
+      '蚂蚁图片压缩',
+  },
+  {
+    urlText: '视频去印',
+    linkUrl: 'https://video.ciding.cc/',
+    linkTitle: 
+      '视频去水印（抖音、皮皮虾、最右、美拍、皮皮搞笑）',
+  },
 ];
