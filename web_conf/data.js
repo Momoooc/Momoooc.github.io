@@ -698,4 +698,10 @@ const bookmarkData = [
     linkTitle:
       '打字训练，通过词典切换，达到边记单词边联系指法的目的。',
   },
+  {
+    urlText: 'MX影院',
+    linkUrl: 'https://tv.125925.xyz/',
+    linkTitle:
+      '免费电影，可以随时随地畅享海量免费影视内容',
+  },
 ];
