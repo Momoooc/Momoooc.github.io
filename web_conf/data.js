@@ -97,11 +97,6 @@ const bookmarkData = [
     linkTitle: '恩山无线论坛，专注于无线网络、路由器等技术交流的社区。',
   },
   {
-    urlText: 'docker加速',
-    linkUrl: 'https://do.nark.eu.org/',
-    linkTitle: 'Docker 加速器，用于加速 Docker 镜像拉取速度的工具。',
-  },
-  {
     urlText: 'API易',
     linkUrl: 'https://www.apiyi.com/token',
     linkTitle: '提供各类 API 接口服务的平台，方便开发者集成和调用。',
