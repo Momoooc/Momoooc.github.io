@@ -723,4 +723,16 @@ const bookmarkData = [
     linkTitle: 
       '视频去水印（抖音、皮皮虾、最右、美拍、皮皮搞笑）',
   },
+  {
+    urlText: 'PARSEC',
+    linkUrl: 'https://parsec.app/',
+    linkTitle: 
+      '低延迟、跨平台的远程桌面控制软件',
+  },
+  {
+    urlText: '爱快云',
+    linkUrl: 'https://yun.ikuai8.com/',
+    linkTitle: 
+      'iKuai云平台',
+  },
 ];
