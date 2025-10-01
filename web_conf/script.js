@@ -51,7 +51,7 @@ const baiduSearch = () => {
 };
 
 const generateBackgroundColor = (text) => {
-  const colors = ['#282c34', '#3e4451', '#61afef', '#98c379', '#e5c07b', '#d19a66', '#c678dd', '#abb2bf', '#5c6370', '#e06c75'];
+  const colors = ['#65cdd4ff', '#7c92c2ff', '#5985a8ff', '#7fbd54ff', '#c2aa7eff', '#c27676ff', '#b47bc5ff', '#5c5eaaff', '#4171c9ff', '#ce7980ff'];
   let hash = 0;
   for (let i = 0; i < text.length; i++) {
       hash = text.charCodeAt(i) + ((hash << 5) - hash);
