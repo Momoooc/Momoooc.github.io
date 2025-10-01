@@ -116,8 +116,13 @@ const bookmarkData = [
     linkTitle: '恩山无线论坛 路由器 OpenWrt 无线网络 技术交流',
   },
   {
+    urlText: '关于我们',
+    linkUrl: 'https://github.com/Momoooc/Momoooc.github.io',
+    linkTitle: '星标-站点灯塔 个人书签管理器 GitHub项目地址',
+  },
+  {
     urlText: 'API 易',
-    linkUrl: 'https://www.apiyi.com/token',
+    linkUrl: 'https://api.apiyi.com/login',
     linkTitle: 'API 易 API接口服务 开发者工具',
   },
   {
@@ -545,11 +550,6 @@ const bookmarkData = [
     urlText: 'CF 优选',
     linkUrl: 'https://stock.hostmonit.com/CloudFlareYes',
     linkTitle: 'CloudFlare优选IP自动切换 Hostmonit主机监控',
-  },
-  {
-    urlText: '关于我们',
-    linkUrl: 'https://github.com/Momoooc/Momoooc.github.io',
-    linkTitle: '星标-站点灯塔 个人书签管理器 GitHub项目地址',
   },
   {
     urlText: 'Claw云',
