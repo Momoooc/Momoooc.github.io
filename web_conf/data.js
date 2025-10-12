@@ -752,4 +752,11 @@ const bookmarkData = [
     linkUrl: "https://www.cnki.net/",
     linkTitle: "中国知网CNKI|论文查重|学术期刊|硕博论文|文献下载",
   },
+  {
+    urlText: "Z2H字帖",
+    linkUrl: "https://z2h.cn/",
+    linkTitle: "Z2H字帖|超级好用的字帖生成工具|这是一个优雅实用的在线字帖生成工具，可轻松自定义所需字帖，支持汉字和英文任意排版、灵活设置描红样式和大小、自选字体、生成控笔练习字帖、导出图片等。",
+  },
+
+  
 ];
