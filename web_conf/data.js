@@ -734,29 +734,38 @@ const bookmarkData = [
   },
   {
     urlText: "FOFA",
-    linkUrl: "https://fofa.info/",
+    linkUrl: "https://fofa.info",
     linkTitle: "FOFA网络空间测绘|资产搜索|漏洞扫描|IP域名测绘",
   },
   {
     urlText: "证件照",
-    linkUrl: "https://id-photo.cn/",
+    linkUrl: "https://id-photo.cn",
     linkTitle: "证件照在线生成|一键换底色|AI美颜|冲印裁剪",
   },
   {
     urlText: "照片打印",
-    linkUrl: "https://photo.lizhe.org/",
+    linkUrl: "https://photo.lizhe.org",
     linkTitle: "李小蜗证件照打印排版",
   },
   {
     urlText: "知网",
-    linkUrl: "https://www.cnki.net/",
+    linkUrl: "https://www.cnki.net",
     linkTitle: "中国知网CNKI|论文查重|学术期刊|硕博论文|文献下载",
   },
   {
     urlText: "Z2H字帖",
-    linkUrl: "https://z2h.cn/",
+    linkUrl: "https://z2h.cn",
     linkTitle: "Z2H字帖|超级好用的字帖生成工具|这是一个优雅实用的在线字帖生成工具，可轻松自定义所需字帖，支持汉字和英文任意排版、灵活设置描红样式和大小、自选字体、生成控笔练习字帖、导出图片等。",
   },
+  {
+    urlText: "软仓",
+    linkUrl: "https://www.ruancang.net",
+    linkTitle: "软仓是一个集合大型专业软件的导航网站，提供软件介绍和软件安装教程，包含Adoebe系列软件、AutoCad系列软件、3dsMax、达芬奇软件、CINEMA 4D、matlab软件等。",
+  },
+    {
+    urlText: "图表魔方",
+    linkUrl: "https://chartcube.alipay.com",
+    linkTitle: "ChartCube 图表魔方|在线图表制作工具 拖拽之间快速搞定图表制作",
+  },
 
-  
 ];
