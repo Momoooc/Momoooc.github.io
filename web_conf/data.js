@@ -762,10 +762,19 @@ const bookmarkData = [
     linkUrl: "https://www.ruancang.net",
     linkTitle: "软仓是一个集合大型专业软件的导航网站，提供软件介绍和软件安装教程，包含Adoebe系列软件、AutoCad系列软件、3dsMax、达芬奇软件、CINEMA 4D、matlab软件等。",
   },
-    {
+  {
     urlText: "图表魔方",
     linkUrl: "https://chartcube.alipay.com",
     linkTitle: "ChartCube 图表魔方|在线图表制作工具 拖拽之间快速搞定图表制作",
   },
-
+  {
+    urlText: "闪剪",
+    linkUrl: "https://app.shanjian.tv",
+    linkTitle: "闪剪,闪剪数字人,闪剪智能,数字人定制,数字人分身,声音复刻,形象克隆,ai,数字人,ai数字人,AI数字人一键成片,照片说话,照片数字人,克隆人分身,数字人直播,数字人软件,无人直播,视频数字人,闪剪直播切片,趣推,严华培,闪剪APP,闪剪要钱吗,闪剪破解版,闪剪下载,闪剪免费,闪剪ai数字人,闪剪教程,数字克隆人,ai矩阵,虚拟克隆人,虚拟人,智能剪辑,批量剪辑,,虚拟形象,短视频制作,微剪辑,配音,配音神器,自媒体营销助手,自媒体创作,自媒体必备,口播,直播切片,短视频,复活亲人,声音复刻,形象克隆,声音克隆,AI智能成片,一键生成,ai工具,小和尚，ai视频",
+  },
+  {
+    urlText: "装饰神器",
+    linkUrl: "https://planner5d.com/",
+    linkTitle: "Planner5D|装饰神器|一键生成装修图纸",
+  },
 ];
