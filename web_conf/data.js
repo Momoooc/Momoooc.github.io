@@ -777,4 +777,9 @@ const bookmarkData = [
     linkUrl: "https://planner5d.com/",
     linkTitle: "Planner5D|装饰神器|一键生成装修图纸",
   },
+  {
+    urlText: "文生图",
+    linkUrl: "https://text2img.125925.xyz/",
+    linkTitle: "基于 Cloudflare AI 的在线文生图服务",
+  },
 ];
