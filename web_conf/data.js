@@ -427,12 +427,12 @@ const bookmarkData = [
     linkTitle: '岳阳市检验检测中心业务管理平台 登录',
   },
   {
-    urlText: '律师服务',
-    linkUrl: 'https://lspt.court.gov.cn/',
-    linkTitle: '人民法院律师服务平台 律师在线服务入口',
+    urlText: '中国律师',
+    linkUrl: 'https://passport.acla.org.cn/',
+    linkTitle: '中国律师身份核验 律师在线服务入口',
   },
   {
-    urlText: '律师管理',
+    urlText: '湖南律师',
     linkUrl: 'http://hunanlawyer.justice.org.cn:81/',
     linkTitle: '湖南律师综合管理信息系统 登录',
   },
