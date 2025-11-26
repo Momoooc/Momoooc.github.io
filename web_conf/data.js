@@ -787,4 +787,9 @@ const bookmarkData = [
     linkUrl: "https://zxfw.court.gov.cn/",
     linkTitle: "人民法院在线服务网登录页面，用于网上立案",
   },
+  {
+    urlText: "查询律师",
+    linkUrl: "https://credit.acla.org.cn/",
+    linkTitle: "全国律师执业诚信信息公示平台，律师、公示、找律师、查律师、找律所、查律所、找律师事务所、查律师事务所",
+  },
 ];
