@@ -792,4 +792,14 @@ const bookmarkData = [
     linkUrl: "https://credit.acla.org.cn/",
     linkTitle: "全国律师执业诚信信息公示平台，律师、公示、找律师、查律师、找律所、查律所、找律师事务所、查律师事务所",
   },
+  {
+    urlText: "Markdown",
+    linkUrl: "https://md.doocs.org/",
+    linkTitle: "Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器",
+  },
+  {
+    urlText: "扫描全能",
+    linkUrl: "https://www.camscanner.com/login",
+    linkTitle: "扫描全能王 - 文字图片扫描识别, PDF转Word, 文档格式转换, 在线编辑器",
+  },
 ];
