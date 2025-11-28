@@ -321,11 +321,6 @@ const bookmarkData = [
     linkUrl: 'https://tool.liumingye.cn/',
     linkTitle: '刘明野工具箱 在线工具集合',
   },
-  {
-    urlText: '图床',
-    linkUrl: 'https://imgse.com/',
-    linkTitle: '免费图床 图片上传 托管',
-  },
  {
     urlText: 'AI前端',
     linkUrl: 'https://huggingface.co/spaces/enzostvs/deepsite',
@@ -706,11 +701,6 @@ const bookmarkData = [
     urlText: "Ventoy",
     linkUrl: "https://www.ventoy.net/cn/index.html",
     linkTitle: "Ventoy多系统启动盘|ISO直拷|U盘装机|开源免费",
-  },
-  {
-    urlText: "大墨图床",
-    linkUrl: "https://tc.125925.xyz/",
-    linkTitle: "imghub图床|免注册上传|外链永久|支持批量",
   },
   {
     urlText: "IT狗",
