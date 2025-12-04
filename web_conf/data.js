@@ -792,4 +792,9 @@ const bookmarkData = [
     linkUrl: "https://www.camscanner.com/login",
     linkTitle: "扫描全能王 - 文字图片扫描识别, PDF转Word, 文档格式转换, 在线编辑器",
   },
+  {
+    urlText: "过码平台",
+    linkUrl: "https://yescaptcha.com/i/kwymsQ",
+    linkTitle: "Yes, Captcha|基于机器学习的图像识别服务、自动识别验证码",
+  },
 ];
