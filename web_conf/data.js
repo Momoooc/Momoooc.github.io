@@ -797,4 +797,9 @@ const bookmarkData = [
     linkUrl: "https://yescaptcha.com/i/kwymsQ",
     linkTitle: "Yes, Captcha|基于机器学习的图像识别服务、自动识别验证码",
   },
+  {
+    urlText: "MinerU",
+    linkUrl: "https://huggingface.co/spaces/opendatalab/MinerU",
+    linkTitle: "MinerU是一款将PDF转化为机器可读格式的工具（如markdown、json），可以很方便地抽取为任意格式。",
+  },
 ];
