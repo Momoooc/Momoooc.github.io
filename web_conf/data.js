@@ -802,4 +802,9 @@ const bookmarkData = [
     linkUrl: "https://huggingface.co/spaces/opendatalab/MinerU",
     linkTitle: "MinerU是一款将PDF转化为机器可读格式的工具（如markdown、json），可以很方便地抽取为任意格式。",
   },
+  {
+    urlText: "电子税务",
+    linkUrl: "https://etax.chinatax.gov.cn",
+    linkTitle: "自然人电子税务局|个人所得税、专项附加扣除信息填报查询、纳税记录开具、年度汇算",
+  },
 ];
