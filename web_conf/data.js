@@ -807,4 +807,9 @@ const bookmarkData = [
     linkUrl: "https://etax.chinatax.gov.cn",
     linkTitle: "自然人电子税务局|个人所得税、专项附加扣除信息填报查询、纳税记录开具、年度汇算",
   },
+  {
+    urlText: "人社平台",
+    linkUrl: "https://www.12333.gov.cn/",
+    linkTitle: "中华人民共和国人力资源和社会保障部|社保业务办理查询",
+  },
 ];
