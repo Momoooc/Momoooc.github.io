@@ -812,4 +812,9 @@ const bookmarkData = [
     linkUrl: "https://www.12333.gov.cn/",
     linkTitle: "中华人民共和国人力资源和社会保障部|社保业务办理查询",
   },
+  {
+    urlText: "数据胶囊",
+    linkUrl: "https://data.cstcloud.cn/",
+    linkTitle: "中国社科院数据胶囊，S3对象存储",
+  },
 ];
