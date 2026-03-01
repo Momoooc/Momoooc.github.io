@@ -817,4 +817,9 @@ const bookmarkData = [
     linkUrl: "https://data.cstcloud.cn/",
     linkTitle: "中国社科院数据胶囊，S3对象存储",
   },
+  {
+    urlText: "重装系统",
+    linkUrl: "https://cnb.cool/bin456789/reinstall/-/git/raw/main/reinstall.bat",
+    linkTitle: "reinstall，一键DD/重装脚本",
+  },
 ];
