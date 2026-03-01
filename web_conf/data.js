@@ -822,4 +822,14 @@ const bookmarkData = [
     linkUrl: "https://cnb.cool/bin456789/reinstall/-/git/raw/main/reinstall.bat",
     linkTitle: "reinstall，一键DD/重装脚本",
   },
+  {
+    urlText: "天翼VPS",
+    linkUrl: "https://pc.ctyun.cn/",
+    linkTitle: "云电脑,天翼云,天翼云电脑,云电脑web,AI云电脑,天翼AI云电脑,天翼量子AI云电脑,AI云电脑web",
+  },
+  {
+    urlText: "云手机",
+    linkUrl: "https://www.vmoscloud.com/zh",
+    linkTitle: "VMOS云手机，分钟计费云手机，安卓模拟器，云真机，云手机群控，虚拟手机，免费云手机试用",
+  },
 ];
