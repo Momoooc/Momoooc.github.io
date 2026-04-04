@@ -832,4 +832,9 @@ const bookmarkData = [
     linkUrl: "https://www.vmoscloud.com/zh",
     linkTitle: "VMOS云手机，分钟计费云手机，安卓模拟器，云真机，云手机群控，虚拟手机，免费云手机试用",
   },
+  {
+    urlText: "NET检测",
+    linkUrl: "https://mao.fan/mynat",
+    linkTitle: "NAT类型在线检测工具",
+  },
 ];
