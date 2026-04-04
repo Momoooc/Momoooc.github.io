@@ -834,7 +834,7 @@ const bookmarkData = [
   },
   {
     urlText: "NET检测",
-    linkUrl: "https://mao.fan/mynat",
+    linkUrl: "https://dyebean.com/",
     linkTitle: "NAT类型在线检测工具",
   },
 ];
