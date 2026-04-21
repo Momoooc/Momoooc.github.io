@@ -72,12 +72,17 @@ const bookmarkData = [
   {
     urlText: '华为云盘',
     linkUrl: 'https://cloud.huawei.com/home#/',
-    linkTitle: '华为云空间 华为云盘 多设备数据同步',
+    linkTitle: '华为云空间 华为云盘 多设备数据同步 查找定位',
   },
   {
     urlText: '苹果云盘',
     linkUrl: 'https://www.icloud.com.cn/',
     linkTitle: 'Apple iCloud 苹果云盘 云服务 照片 文件 备份',
+  },
+  {
+    urlText: '苹果查找',
+    linkUrl: 'https://www.icloud.com.cn/find/',
+    linkTitle: 'iCloud苹果查找设备',
   },
   {
     urlText: 'CSDN',
@@ -846,5 +851,20 @@ const bookmarkData = [
     urlText: "NiuLink",
     linkUrl: "https://portal.niulinkcloud.cn/",
     linkTitle: "麻雀云登录控制台",
+  },
+  {
+    urlText: "湖南农大",
+    linkUrl: "https://webvpn.hunau.edu.cn/",
+    linkTitle: "湖南农大图书馆",
+  },
+  {
+    urlText: "星空组网",
+    linkUrl: "https://starvpn.cn/wx/login",
+    linkTitle: "星空, 星空组网, 星空云官网, sd-wan, 组网, 异地组网, 公网ip, 视频监控, 远程访问",
+  },
+  {
+    urlText: "荣耀云",
+    linkUrl: "https://cloud.honor.com/?langCode=zh-cn",
+    linkTitle: "荣耀云空间 荣耀云盘 多设备数据同步 查找定位",
   },
 ];
