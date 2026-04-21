@@ -859,7 +859,7 @@ const bookmarkData = [
   },
   {
     urlText: "星空组网",
-    linkUrl: "https://starvpn.cn/wx/login",
+    linkUrl: "http://starvpn.cn/register.html?referralCode=96064876",
     linkTitle: "星空, 星空组网, 星空云官网, sd-wan, 组网, 异地组网, 公网ip, 视频监控, 远程访问",
   },
   {
