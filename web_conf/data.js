@@ -472,7 +472,7 @@ const bookmarkData = [
     linkTitle: '字笑哈哈 在线艺术字生成器',
   },
   {
-    urlText: '在线白板',
+    urlText: '画草图',
     linkUrl: 'https://excalidraw.com/',
     linkTitle: 'Excalidraw 在线手绘风格白板 协作 分享',
   },
