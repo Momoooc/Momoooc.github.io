@@ -867,4 +867,9 @@ const bookmarkData = [
     linkUrl: "https://cloud.honor.com/?langCode=zh-cn",
     linkTitle: "荣耀云空间 荣耀云盘 多设备数据同步 查找定位",
   },
+  {
+    urlText: "微思论坛",
+    linkUrl: "https://cloud.honor.com/?langCode=zh-cn",
+    linkTitle: "安卓手表功能深度定制、破解的垂直社区",
+  },
 ];
