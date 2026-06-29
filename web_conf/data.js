@@ -872,4 +872,19 @@ const bookmarkData = [
     linkUrl: "https://cloud.honor.com/?langCode=zh-cn",
     linkTitle: "安卓手表功能深度定制、破解的垂直社区",
   },
+  {
+    urlText: "豆包",
+    linkUrl: "https://www.doubao.com/chat/",
+    linkTitle: "豆包，字节跳动旗下 AI 智能助手",
+  },
+  {
+    urlText: "千问",
+    linkUrl: "https://www.qianwen.com/chat/",
+    linkTitle: "千问是阿里官方AI助手，提供最强Qwen大模型体验的第一入口，助力你的工作、学习、生活。 支持 AI 搜索、网页总结、AI PPT、AI 生图、PPT 创作和录音纪要，让创作、汇报、调研、分析更高效。",
+  },
+  {
+    urlText: "飞牛远程",
+    linkUrl: "https://fnos.net/",
+    linkTitle: "FN Connect 飞牛远程访问服务为您提供安全、高效的远程访问到fnOS的服务，只需要 FN ID 即可安全远程到您的NAS。",
+  },
 ];
