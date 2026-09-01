@@ -887,4 +887,9 @@ const bookmarkData = [
     linkUrl: "https://fnos.net/",
     linkTitle: "FN Connect 飞牛远程访问服务为您提供安全、高效的远程访问到fnOS的服务，只需要 FN ID 即可安全远程到您的NAS。",
   },
+  {
+    urlText: "赔偿计算",
+    linkUrl: "https://jtsg.125925.xyz",
+    linkTitle: "交通事故人身损害赔偿计算器——全链路保险赔付逻辑，交强险三大限额分别封顶，商业三者险含免赔率，侵权人责任拆分，诉讼费增量法分担。",
+  },
 ];
