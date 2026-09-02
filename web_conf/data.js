@@ -368,7 +368,7 @@ const bookmarkData = [
   },
   {
     urlText: '免费域名',
-    linkUrl: 'https://dashboard.digitalplat.org',
+    linkUrl: 'https://dashboard.digitalplat.org/signup?ref=gYAlgFXTDd',
     linkTitle: '免费域名注册',
   },
   {
