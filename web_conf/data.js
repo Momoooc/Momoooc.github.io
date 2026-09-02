@@ -368,8 +368,8 @@ const bookmarkData = [
   },
   {
     urlText: '免费域名',
-    linkUrl: 'https://register.us.kg/',
-    linkTitle: '免费域名注册 .us.kg',
+    linkUrl: 'https://dashboard.digitalplat.org',
+    linkTitle: '免费域名注册',
   },
   {
     urlText: '蓝点网',
@@ -400,16 +400,6 @@ const bookmarkData = [
     urlText: '淘宝法拍',
     linkUrl: 'https://sf.taobao.com/',
     linkTitle: '阿里拍卖，司法拍卖，法拍房，法拍车',
-  },
-  {
-    urlText: '诉讼资产',
-    linkUrl: 'https://www.rmfysszc.gov.cn/',
-    linkTitle: '人民法院诉讼资产网 司法拍卖查询 官方',
-  },
-  {
-    urlText: '公拍法拍',
-    linkUrl: 'https://www.gpai.net/sf/',
-    linkTitle: '公拍网，司法拍卖，法拍房，法拍车',
   },
   {
     urlText: '公拍法拍',
